@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.raidmine.stafftool.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatScreenMixin",
+    "ChatHudMixin",
+    "InGameHudMixin",
+    "KeyboardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
